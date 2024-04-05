@@ -90,7 +90,7 @@ const page = () => {
   return (
     <MyContext.Provider value={{ allTodos, addTodo, updateTodo, deleteTodo, markUnmark }}>
 
-      <div className='w-full min-h-screen bg-slate-900'>
+      <div className='w-full min-h-screen bg-red-500'>
         <div className='text-white text-center text-3xl font-bold pt-16'>Manage Your Todos</div>
         <div className='w-1/3 mt-10 mx-auto flex'>
           <TaskInput />
